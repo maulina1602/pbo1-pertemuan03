@@ -2,22 +2,27 @@ package percabangan;
 
 public class Switch {
     public static void main(String[] args) {
-        int bejalanan=5;            //lagi gabut jadi ulun commit satu2 ai pa ai wkwkwk
-        switch (bejalanan){
-            case 1:
-                System.out.println("urang lapas jr bapa :V");
+        char nilai='A';            //lagi gabut jadi ulun commit satu2 ai pa ai wkwkwk
+        switch (nilai){
+            case 'A':
+                System.out.println("Mhs     :\"Terimakasih pak, nih durian gasan pian\"");
+                System.out.println("Dosen   :\"Selamat laha, wahhh makasih banyak durennya\"");
                 break;
-            case 2:
-                System.out.println("urang acayan jr bapa <3");
+            case 'B':
+                System.out.println("Mhs     :\"KENAPA ULUN KADA DAPAT A PAKK ??\"");
+                System.out.println("Dosen   :\"ASDGFHJKL, KADA SADAR DIRI\"");
                 break;
-            case 3:
-                System.out.println("ubat nyamuk wara :( kasian lo pa");
-                break;
-            case 4:
-                System.out.println("dubil dit muka indumarit :D");
+            case 'C':
+                System.out.println("Mhs     :\"ulun turun tarus pak, absen poll jua\"");
+                System.out.println("Dosen   :\"kawa lah mnjawab soal ujian ?\"");
+                System.out.println("Mhs     :\"di kawa kawa akan pa ai hehe\"");
                 break;
             default:
-                System.out.println("makhluk halus sejenis kunti XDXD");
+                System.out.println("Mhs     :\"ulun turun poll pak, tugas ngumpul trus\"");
+                System.out.println("Dosen   :\"dusta tatak gulu\"");
+                System.out.println("Mhs     :\"bujuran pa ai\"");
+                System.out.println("Dosen   :\"cek berkas\"");
+                System.out.println("Mhs     :\"bujuran bdusta maksudnya pak, HAHAHAH KABOORRRR!!!!\"");
                 break;
         }
     }
