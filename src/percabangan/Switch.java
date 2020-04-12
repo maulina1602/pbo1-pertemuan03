@@ -2,7 +2,7 @@ package percabangan;
 
 public class Switch {
     public static void main(String[] args) {
-        int bejalanan=2;            //lagi gabut jadi ulun commit satu2 ai pa ai wkwkwk
+        int bejalanan=3;            //lagi gabut jadi ulun commit satu2 ai pa ai wkwkwk
         switch (bejalanan){
             case 1:
                 System.out.println("urang lapas jr bapa :V");
